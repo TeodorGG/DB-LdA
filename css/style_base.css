@@ -1,4 +1,28 @@
+a:hover, 
+a:visited,
+a:focus
+{text-decoration: none !important;}
 
+
+.custom_button_s {
+    background-image: linear-gradient(to right, rgba(111, 98, 236, 0.85) 0%, rgba(84, 87, 253, 0.85) 100%);
+    border-radius: 5px;
+    flex: 1;
+    background-color: rgb(182, 182, 241);
+    margin : 20px;
+    color: white;
+    padding: 10px;
+    
+  }
+
+  .custom_button_s:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 1s;
+  }
+
+  
 .dialog_box_as {
     height: 100%;
     width: 100%;
@@ -22,9 +46,8 @@
 
   .dialog_container {
       background-color: white;
-      margin: 200px;
       padding : 20px;
-
+      margin : 50px;
   }
 
  
